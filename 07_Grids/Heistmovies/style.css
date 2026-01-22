@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+main{
+    color: white;
+    grid-template-columns: fill;
+    grid-template-rows: 150vh;
+}
+
+body{
+    font-size: 12px;
+    display: grid;
+    height: 150vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#A{
+    background: url('Images/heat.jpg');
+    background-size: cover;
+    background-position: center;
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+
+#B{
+    background: url('Images/bankjob.jpg');
+    background-size: cover;
+    grid-row: 1;
+    grid-column-start: 3;
+    grid-column-end: span 2;
+}
+
+#C{
+    background: url('Images/rififi.jpg');
+    background-size: cover;
+    grid-row: 2;
+    grid-column: 1;
+}
+
+#D{
+    background: url('Images/insideman.jpg');
+    background-size: cover;
+    grid-row: 2;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+}
+
+#E{
+    color: black;
+    background: url('Images/usualsuspects.jpg');
+    background-size: cover;
+    grid-row: 2;
+    grid-column: 4;
+}

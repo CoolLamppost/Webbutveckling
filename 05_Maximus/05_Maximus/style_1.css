@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    background: #555;
+    padding: 10px 0 15px 0;
+}
+
+h1{
+    margin: 0 0 10px 0;
+    color: #FC3;
+    font-weight: normal;
+}
+
+h4{
+    margin: 0;
+    font-weight: normal;
+}
+
+nav{
+    background-color: #444;
+}
+
+nav a{
+    text-decoration: none;
+    background: #444;
+    color: #FC3;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+nav a:hover{
+    background: #555;
+}
+
+main{
+    display: flex;
+}
+
+.idk{
+    font-family: "verdana";
+    font-size: 10px;
+}
+
+article, aside{
+    border: 1px solid; color: black;
+    padding: 0 10px 0 10px;
+}
+
+article{
+    flex: 2;
+}
+
+aside{
+    flex: 1;
+}
+
+#Rom{
+    background: url('images/Rome_skyline_panorama.jpg');
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+#SanMarino{
+    background: url('images/San_Marino_panorama.jpg');
+    background-size: cover;
+}
+
+aside div{
+    padding: 100px 0 1px 0;
+}
+
+aside div section{
+    padding: 0 10px 0 10px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+aside div section h5{
+    padding-top: 10px;
+}
+
+aside div section p{
+    padding-bottom: 10px;
+}
+
+footer{
+    display: flex;
+    background: #444;
+}
+
+footer section{
+    flex: 1;
+    color: white;
+    border: 1px solid; border-color: black;
+}   
+
+footer h5{
+    color: #FC3;
+    margin: 10px 0 0 10px;
+}
+
+footer section p{
+    margin: 0 10px 10px 10px;
+}

@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/*Knut har sagt att jag borde lämna in alla mina projekt i comic sans. vet inte om jag borde lyssna på honom dock*/ 
+body{
+    margin: 0;
+}
+
+header{
+    background: #444;
+    color: white;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+h1{
+    color: #FC3;
+    margin: 0 0 5px 0;
+    font-weight: normal;
+}
+
+h3{
+    margin: 0;
+}
+
+nav{
+    background: #333;
+}
+
+nav a{
+    background: #333;
+    color: #FC3;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+nav a:hover{
+    background-color: #444;
+}
+
+main{
+    display: flex;
+}
+
+article, aside{
+    border: 1px solid; color: black; 
+}
+
+article{
+    flex: 2;
+    background: #eee;
+    padding: 10px 0 0 10px;
+}
+
+.article{
+    font-family: verdana;
+    font-size: 10px;
+}
+
+article p span{
+    border: 1.5px solid #FC3;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+table{
+    margin: 0 0 15px 0;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #ddd;
+    box-shadow: 4px 4px 5px #999;       
+}
+
+td{
+    border: 1px solid black;
+    padding: 6px;
+}
+
+td:first-child{
+    background-color: #bbb
+}
+
+tr:nth-child(even){
+    background: #ccc;
+}
+
+aside{
+    flex: 1;
+    padding: 10px 0 0 10px;
+}
+
+footer{
+    display: flex;
+    background: #333;
+    padding: 10px;
+}
+
+footer section{
+    flex: 1;
+    color: #FFF;
+}
+
+h4{
+    color: #FC3;
+    margin: 0;
+}
+
+footer section p{
+    margin: 4px 0 0 0;
+}
+
+#Rom{
+    background: url('images/Rome_skyline_panorama.jpg');
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+#SanMarino{
+    background: url('images/San_Marino_panorama.jpg');
+    background-size: cover;
+}
+
+aside div{
+    padding: 90px 10px 10px 10px;
+}
+
+aside div section{
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #FFF
+}
+
+aside div section h5{
+    margin: 0;
+    font-size: 16px;
+}
+
+aside div section p{
+    margin: 0;
+    font-size: 14px;
+}

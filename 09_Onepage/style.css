@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+body{
+    font-family: "ubuntu";
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    width: 100%;
+    background-color: #555;
+    color: #EEE;
+    display: flex;
+    font-size: 20px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+}
+
+header h3{
+    padding: 0 0 0 10px;
+    flex: 1;
+}
+
+header nav a{
+    color: #EEE;
+    text-decoration: none;
+    padding: 30px 20px 33px 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#toplinks{
+    padding-top: 25px;
+}
+
+header nav a:hover{
+    background-color: #666;
+}
+
+header .material-symbols-outlined{
+    color: darkturquoise;
+    align-self: center;
+    padding: 0 0 0 10px;
+}
+
+#home{
+    background: url(Images/pexels-kevin-ku-577585.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+#Webdevelopment{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #EEE;
+    margin: 80px 200px 0 200px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.A{
+    color: darkturquoise;
+}
+
+.B{
+    color: #EEE;
+}
+
+.C{
+    color: #333;
+}
+
+#about{
+    margin: 300px 300px 300px 300px;
+    height: 100vh;
+}
+
+#title{
+    text-align: center;
+    font-size: 40px;
+}
+
+#blog{
+    margin: 300px 300px 300px 300px;
+}
+
+#blogtitle{
+    text-align: center;
+    font-size: 40px;
+}
+
+#contact{
+    margin: 300px 300px 300px 300px;
+}
+
+#contacttitle{
+    text-align: center;
+    font-size: 40px;
+}
+
+footer{
+    background-color: #555;
+    text-align: center;
+    color: #EEE;
+    padding: 20px 0 10px 0;
+    display: grid;
+}
+
+footer a{
+    font-family: "ubuntu";
+    text-decoration: none;
+    color: #EEE;
+    padding: 2px 2px 2px 2px;
+}

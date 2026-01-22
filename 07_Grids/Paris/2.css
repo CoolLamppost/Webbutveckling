@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#a{
+    color: white;
+    background: url('img_2/a.jpg');
+    background-size: cover;
+    grid-row: 1;
+    grid-column: 3;
+}
+
+#b{
+    color: white;
+    background: url('img_2/b.webp');
+    background-size: cover;
+    grid-row: 1;
+    grid-column: 4;
+}
+
+#c{
+    color: white;
+    background: url('img_2/c.jpg');
+    background-size: cover;
+    grid-row: 1;
+    grid-column: 5;
+}
+
+#d{
+    color: white;
+    background: url('img_2/d.jpg');
+    background-size: cover;
+    grid-row: 2;
+    grid-column: 3;
+}
+
+#e{
+    color: white;
+    background: url('img_2/e.jpg');
+    background-size: cover;
+    grid-row: 2;
+    grid-column: 5;
+}
+
+#f{
+    color: white;
+    background: url('img_2/f.jpg');
+    background-size: cover;
+    grid-row: 3;
+    grid-column: 3;
+}
+
+#g{
+    color: white;
+    background: url('img_2/g.webp');
+    background-size: cover;
+    grid-row: 3;
+    grid-column: 4;
+}
+
+#h{
+    color: white;
+    background: url('img_2/h.jpg');
+    background-size: cover;
+    grid-row: 3;
+    grid-column: 5;
+}
+
+#i{
+    color: white;
+    background: url('img_2/i.jpg');
+    background-size: cover;
+    grid-row: 4;
+    grid-column: 3;
+}
+
+#j{
+    color: white;
+    background: url('img_2/j.jpg');
+    background-size: cover;
+    grid-row: 5;
+    grid-column: 3;
+}
+
+#k{
+    font-size: 40px;
+    text-align: center;
+    grid-row-start: 4;
+    grid-row-end: span 2;
+    grid-column-start: 4;
+    grid-column-end: span 2;
+}

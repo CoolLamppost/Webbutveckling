@@ -1,0 +1,10 @@
+body{
+    height: 100vh;
+}
+
+section{
+    width:300px; height:300px;
+    display: flexbox;
+    flex: align-self;
+}
+/*jag kommer hoppa*/

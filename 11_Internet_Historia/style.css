@@ -1,0 +1,23 @@
+body{
+    font-family: "helvetica";
+    margin: 0;
+}
+
+header{
+    background-color: #555;
+    color: #eee;
+    padding: 10px;
+    max-height: 90px;
+    rotate: -0.01deg;
+}
+/*yeah, its slightly tilted*/
+main{
+    margin: 10px 10px 25vh 10px
+}
+
+footer{
+    font-family: "vcr osd mono";
+    color: #777;
+    font-size: 10px; 
+    margin: 0 10px 10px 10px;
+}

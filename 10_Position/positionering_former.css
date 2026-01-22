@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+#röd{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+#blå{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 255);
+    position: relative; 
+    left: 200px;
+    top: 200px;
+}
+
+#grön{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 255, 0);
+    border-radius: 100px;
+    position: relative;
+}

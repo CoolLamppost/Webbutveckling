@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+body{
+    font-family: tahoma;
+}
+
+h1{
+    color: #fc3;
+}
+
+header{
+    background-color: #555;
+    color: #fc3;
+    padding: 1px 10px 10px 10px;
+}   
+
+header a{
+    color: #fff;
+    font-family: "stack sans notch", sans-serif;
+}
+
+header h1{
+    font-family: "stack sans notch", sans-serif;
+    color: #fc3;
+}
+
+figure{
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 500px;
+}
+
+#bild{
+    border: 10px solid #666;
+    border-radius: 12px;
+    padding: 0;
+}
+
+img{
+    max-width: 500px;
+    border: thin silver solid;
+    padding: 10px 10px 0 10px;
+}
+
+figcaption{
+    background-color: #222222;
+    font-family: "vcr osd mono";
+    color: white;
+    text-align: center;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 10px;
+}
+
+table{
+    margin: 0 0 15px 0;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #ddd;  
+}
+
+td{
+    border: 1px solid black;
+    padding: 6px;
+}
+
+td:first-child{
+    background-color: #bbb
+}
+
+tr:nth-child(even){
+    background: #ccc;
+}
+
+#sans{
+    font-family: "comic sans ms";
+}
+
+#wings{
+    font-family: "wingdings";
+}
+
+#stack{
+    font-family: "stack sans notch";
+}

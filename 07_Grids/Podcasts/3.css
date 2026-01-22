@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+body{
+    font-style: normal;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#moon{
+    color: white;
+    background: url('img_3/moonlanding.webp');
+    background-size: cover;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: span 8;
+    grid-row-end: span 2;
+    margin: 10 10 10 10;
+}
+
+#moontext{
+    height: 5vh;
+    font-family: sans-serif;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-column-end: span 8;    
+    grid-row-end: span 2;
+}
+
+#vinci{
+    background: url('img_3/vitruvian_man_da_vinci.webp');
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 10;
+    grid-column-end: span 4;
+    grid-row: 1;
+}   
+
+#vincitext{
+    height: 5vh;
+    font-family: sans-serif;
+    grid-column-start: 15;
+    grid-row-start: 1;
+    grid-column-end: span 10;    
+    grid-row-end: 1;
+}
+
+#napoleon{
+    background: url('img_3/napoleon.webp');
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 10;
+    grid-column-end: span 4;
+    grid-row: 2;
+}
+
+#giza{
+    background: url('img_3/pyramids.webp');
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 10;
+    grid-column-end: span 4;
+    grid-row: 3;
+}
+
+#ali{
+    background: url('img_3/ali.webp');
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 10;
+    grid-column-end: span 4;    
+    grid-row: 4;
+}
+
+h1{
+    font-family: tahoma;
+}
+
+h5{
+    color: darkred;
+}
