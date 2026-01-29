@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>how animations and transitions in css works</h2>
+    <h5>bla blah blah lorem ipsum blah schoolwork</h5>
+    <p>hover over this red square</p>
+    <div><p>now its a blue rectangle!</p></div>
+    <p>this is achieved by using the "<code>transition</code>" attribute in CSS, see example:</p>
+    <code>
+        div{
+        <br>width: 100px;
+        <br>height: 100px;
+        <br>color: rgba(100, 100, 100, 0);
+        <br>background-color: red;
+        <br>text-align: center;
+        <br>transition: width 1.6s, background-color 1.6s, color 2s;
+    <br>}
+    
+    <br><br>div:hover{
+        <br>width: 300px;
+        <br>background-color: blue;
+        <br>color: white;
+    <br>}
+</code>
+    <h2>animations</h2>
+    <p>this circle should be a rainbow gradient</p>
+    <div id="ball"></div>
+    <p>this <!-- as you might suspect --> is achieved by using the "<code>animation</code>" attribute in CSS, see example below:</p>
+    <code>
+        @keyframes myAnimation {
+            <br>0%   {background-color: red;}
+            <br>10%  {background-color: orangered;}
+            <br>20%  {background-color: orange;}
+            <br>30%  {background-color: yellow;}
+            <br>40%  {background-color: yellowgreen;}
+            <br>50%  {background-color: green;}
+            <br>60%  {background-color: #008080;}
+            <br>70%  {background-color: blue;}
+            <br>80%  {background-color: indigo;}
+            <br>90%  {background-color: purple;}
+            <br>100% {background-color: red;}
+        <br>}
+        
+        <br><br>#ball{
+            <br>border-radius: 100px;
+            <br>width: 200px;
+            <br>height: 200px;
+            <br>background-color: red;
+            <br>animation-name: myAnimation;
+            <br>animation-duration: 4s;
+            <br>animation-iteration-count: infinite;
+            <br>animation-timing-function: linear;
+        <br>} 
+          
+    </code>
+</body>
+</html>

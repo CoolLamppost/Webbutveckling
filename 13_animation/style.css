@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+div{
+    width: 100px;
+    height: 100px;
+    color: rgba(100, 100, 100, 0);
+    background-color: red;
+    text-align: center;
+    transition: width 1.6s, background-color 1.6s, color 2s;
+}
+
+div:hover{
+    width: 300px;
+    background-color: blue;
+    color: white;
+}
+
+ @keyframes myAnimation {
+    0%   {background-color: red;}
+    10%  {background-color: orangered;}
+    20%  {background-color: orange;}
+    30%  {background-color: yellow;}
+    40%  {background-color: yellowgreen;}
+    50%  {background-color: green;}
+    60%  {background-color: #008080;}
+    70%  {background-color: blue;}
+    80%  {background-color: indigo;}
+    90%  {background-color: purple;}
+    100% {background-color: red;}
+  }
+
+  #ball{
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  } 
+  
