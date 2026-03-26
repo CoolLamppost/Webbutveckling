@@ -1,12 +1,22 @@
 @charset "UTF-8";
 
 body{
-    background-color: black;
-    color: white;
-    font-family: "vcr osd mono";
+    margin: 0;
+    background-color: #666;
+    color: black;
+    font-family: "fs tahoma 8px";
+    font-size: 16px;
 }
 
-a{
-    text-decoration: none;
+header{
+    font-size: 24px;
+    padding: 10px;
     color: white;
+    text-decoration: none;
+    background-color: rgb(140, 0, 0);
+    box-shadow: 0 10px rgb(100, 0, 0);
+}
+
+p, a{
+    padding: 7.5px;
 }
