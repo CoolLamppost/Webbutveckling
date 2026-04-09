@@ -1,5 +1,24 @@
 @charset "UTF-8";
 
+@media (max-width: 500px) {
+    body{
+        font-size: 12px;
+        grid-template-areas: 
+            "he he he"
+            "le le le"
+            "ma ma ma"
+            "ri fo fo";
+    }
+
+    #huvudtext{
+        font-size: 12px;
+    }
+
+    #lefttext{
+        display: none;
+    }
+}
+
 body{
     background-color: black;
     color: white;
@@ -12,7 +31,6 @@ body{
         "he he he he"
         "le ma ma ri"
         "le ma ma ri"
-        "le bo bo ri"
         "fo fo fo fo";
 }
 
@@ -48,7 +66,6 @@ header p{
 #right{
     grid-area: ri;
     border-style: none solid;
-    width: 150px;
     display: grid;
 }
 
@@ -70,28 +87,19 @@ header p{
 }
 
 #huvudtext{
+    padding: 5px;
     grid-area: ma;
     border-style: none;
-    font-size: 17px;
 }
 
 #left{
     grid-area: le;
     border-style: none solid;
-    width: 150px;
 }
 
 #left h3{
     margin: 0;
 }
-
-#bottom{
-    display: flex;
-    grid-area: bo;
-    border-style: solid none none none;
-    height: 147px;
-}
-
 
 #bottom a{
     margin: 5px;
