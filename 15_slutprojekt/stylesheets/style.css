@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     body{
         font-size: 12px;
         grid-template-areas: 
@@ -11,11 +11,33 @@
     }
 
     #huvudtext{
-        font-size: 12px;
+        font-size: 14px;
     }
 
     #lefttext{
         display: none;
+    }
+
+    #right{
+        width: 102px;
+    }
+
+    #right img{
+        width: 100px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    figure{
+        width: 100px;
+        height: 83px;
+        margin: 0;
+        border: thin white solid;
+    }
+    
+    figcaption{
+        width: 100px;
+        text-align: center;
     }
 }
 
@@ -25,7 +47,7 @@ body{
     font-family: "vcr osd mono";
     height: 1vh;
     width: fit-content;
-    margin: 0;
+    margin: auto;
     display: grid;
     grid-template-areas: 
         "he he he he"
@@ -54,12 +76,12 @@ header p{
     margin: 0;
 }
 
-#right, #huvudtext, #left, #bottom, footer{
+#right, #maintext, #left, #bottom, footer{
     padding: 5px;
     border: 5px solid white;
 }
 
-#right p, #huvudtext p, #left p, #bottom p, footer p{
+#right p, #maintext p, #left p, #bottom p, footer p{
     margin: 0;
 }
 
@@ -69,12 +91,27 @@ header p{
     display: grid;
 }
 
+#right img{
+    max-width: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+figure{
+    max-height: 150px;
+    margin: 0;
+    border: thin white solid;
+}
+
+figcaption{
+    text-align: center;
+}
+
 #left nav a{
     display: block;
     color: white;
     text-align: center;
     text-decoration: none;
-    /* width: 135px; */
     height: 25px;
     margin: 5px;
     padding: 10px 0 0 0;
@@ -86,10 +123,13 @@ header p{
     border: 5px solid red;
 }
 
-#huvudtext{
-    padding: 5px;
+#maintext{
     grid-area: ma;
     border-style: none;
+}
+
+#left, #right{
+    max-width: 200px;
 }
 
 #left{

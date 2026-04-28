@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    background-color: #777;
+    color: black;
+    font-family: "fs tahoma 8px";
+    font-size: 20px;
+}
+
+header{ 
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(140, 0, 0);
+    box-shadow: 0 10px rgb(100, 0, 0);
+}
+
+#ball{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.1);
+    background-color: #808080;
+    border-radius: 75px;
+    margin: 100px 0 0 10px;
+    transition: background-color 1s, color 1s;
+}
+
+#ball, p{
+    position: relative;
+    top: 50px;
+}
+
+#ball:hover{
+    background-color: rgb(140, 0, 0);
+    color: #000
+}
+
+a{
+    color: black;
+
+}
+
+p, a{
+    padding: 7.5px;
+}
+
+a, p{
+    text-decoration: none;
+    transition: font-size 0.333s;
+}
+
+p:hover, a:hover{
+    font-size: 110%;
+}

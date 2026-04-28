@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@media (max-width: 700px) {
+    figure{
+        display: none;
+        position: absolute;
+        top: 500px;
+        left: 0px;
+    }
+    img, figcaption{
+        width: 285.4px;
+    }
+}
+
+body{
+    max-width: 1650px;
+    margin: 0;
+    background-color: #666;
+    color: black;
+    font-family: "fs tahoma 8px";
+    font-size: 20px;
+}
+
+header{
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(140, 0, 0);
+    box-shadow: 0 10px rgb(100, 0, 0);
+}
+
+main{
+    max-width: 1000px;
+    margin: 10px;
+}
+
+p, a{
+    padding: 7.5px;
+}
+
+header a{
+    color: #FFF;
+}
+
+figure{
+    position: absolute;
+    top: 70px;
+    right: -10px;
+}
+
+img{
+    border: thin white solid;
+    max-width: 500px;
+    max-height: 400px;
+    padding: 0;
+}
+/*har aldrig varit mer självmordsbenägen än när jag gjorde detta :)*/
+figcaption{
+    font-size: 13px;
+    margin: 0;
+    max-width: 500px;
+    background-color: black;
+    font-family: "vcr osd mono";
+    color: white;
+    text-align: center;
+}
