@@ -2,7 +2,7 @@
 
 @media (max-width: 700px) {
     figure{
-        display: none;
+        display: none;/*var lättast att ta bort, blockerar texten annars*/
         position: absolute;
         top: 500px;
         left: 0px;
@@ -54,7 +54,7 @@ img{
     max-height: 400px;
     padding: 0;
 }
-/*har aldrig varit mer självmordsbenägen än när jag gjorde detta :)*/
+/*denna var ett helvete att få det att funka*/
 figcaption{
     font-size: 13px;
     margin: 0;

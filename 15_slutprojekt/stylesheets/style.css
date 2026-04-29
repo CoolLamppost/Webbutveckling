@@ -2,6 +2,7 @@
 
 @media (max-width: 600px) {
     body{
+        padding: 0;
         font-size: 12px;
         grid-template-areas: 
             "he he he"
@@ -10,7 +11,7 @@
             "ri fo fo";
     }
 
-    #huvudtext{
+    #maintext{
         font-size: 14px;
     }
 
@@ -97,7 +98,7 @@ header p{
     margin: 0;
 }
 
-figure{
+figure{/*denna var dock lätt att lägga in*/
     max-height: 150px;
     margin: 0;
     border: thin white solid;
@@ -117,7 +118,7 @@ figcaption{
     padding: 10px 0 0 0;
     border: 5px solid white;    
 }
-
+/*ser bara coolt ut*/
 #left nav a:hover{
     color: red;
     border: 5px solid red;

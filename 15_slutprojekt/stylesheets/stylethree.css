@@ -24,6 +24,7 @@ header{
     background-color: #808080;
     border-radius: 75px;
     margin: 100px 0 0 10px;
+    /*transitions är coola så varför inte*/
     transition: background-color 1s, color 1s;
 }
 
@@ -43,7 +44,7 @@ a{
 }
 
 p, a{
-    padding: 7.5px;
+    padding: 10px;
 }
 
 a, p{
